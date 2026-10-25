@@ -1,0 +1,25 @@
+# build output
+/build/
+/build-bml/
+/build-bmlplus/
+/release/
+
+# compiled mod artifacts
+*.bmod
+*.bmodp
+
+# local snapshots, original binary and the SDK archives
+/backup/
+/deps/
+
+# Visual Studio / CMake byproducts
+.vs/
+CMakeCache.txt
+CMakeFiles/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+
+*.bat
+/old-bml/*.bat
